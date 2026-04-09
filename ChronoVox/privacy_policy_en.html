@@ -84,6 +84,21 @@
 
 <ul>
     <li>
+        <strong>Exact alarms:</strong><br>
+        These are used to schedule the timer completion with second-level accuracy,
+        even when the device is idle or the application is not actively in use.
+        This permission is required to ensure that timer alerts are triggered at the exact
+        time configured by the user.
+    </li>
+
+    <li>
+        <strong>Temporarily keeping the device awake (Wake Lock):</strong><br>
+        This is used in a controlled and short-lived manner to ensure the correct execution
+        of alerts, sounds, and text-to-speech when the timer finishes.
+        The application does not keep the device awake unnecessarily or for extended periods.
+    </li>
+
+    <li>
         <strong>Foreground Services and Audio Playback:</strong><br>
         Used to ensure that the timer continues functioning correctly even when
         the application is not in the foreground or when the device is locked.
